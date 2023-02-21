@@ -158,12 +158,14 @@ p{
   height: auto;
   border:none;
   outline: none;
+  margin-top: 70px;
+}
+.Input::placeholder{
+  color:#bababa;
+  font-size: 12px;
 }
 
-.입력해주세요{
-  margin-top: 80px;
-  color: rgb(105, 103, 103);
-}
+
 
 .Eloginbutton{
   background-color: rgb(221, 224, 228);

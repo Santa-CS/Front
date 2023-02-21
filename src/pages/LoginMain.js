@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Main = (props) => {
+const LoginMain = (props) => {
 	const Open = (url) => {
 		window.open(url, "_blank", "noopener, noreferrer");
 	};
@@ -69,6 +69,7 @@ const Main = (props) => {
 						</button>
 						</Link>
 						<Link to="/Signin"><button class='signIn'>회원가입</button></Link>
+						<Link to="/MainP"><button class='signIn'>메인페이지</button></Link>
 						</div>
 					</div>
 			</div>
@@ -76,4 +77,4 @@ const Main = (props) => {
 	);
 };
 
-export default Main;
+export default LoginMain;

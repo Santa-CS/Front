@@ -1,6 +1,6 @@
-FROM nginx
+FROM node
 WORKDIR /app
-COPY package.json /app/pakage/json
+COPY package.json .
 RUN npm install
 COPY . /app
 CMD ["npm", "start"]
