@@ -51,13 +51,13 @@ const Email = (props) => {
                     placeholder='이메일을 입력해주세요' 
                     class='Input'
                     value={id}
-                    onChange={(i)=>setid(i.target.value)}/>
+                    onChange={(e)=>setid(e.target.value)}/>
                 <hr style={{width:'90%' ,marginTop:'5px'}}></hr>
                 <input 
                     placeholder='비밀번호를 입력해주세요' 
                     class='Input'
                     value={pw}
-                    onChange={(p)=>setpw(p.target.value)}/>
+                    onChange={(e)=>setpw(e.target.value)}/>
                 <hr style={{width:'90%', marginTop:'5px'}}></hr>
                 <button onClick={confirm} class='Eloginbutton'>로그인</button>
                 <Link to="/Findpw">
